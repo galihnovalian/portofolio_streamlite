@@ -163,7 +163,7 @@ def lakukan_prediksi():
     # Visualisasi data dan model
     fig, ax = plt.subplots()
     ax.scatter(X, y, color='blue', label='Data')
-    ax.plot(X, model.predict(X), color='red', label='Regresi')
+    ax.plot(X, model.predict(X), color='red', label='Regression')
     ax.set_xlabel('X')
     ax.set_ylabel('y')
     ax.legend()
