@@ -1,20 +1,20 @@
 import streamlit as st
 
 st.set_page_config(layout='wide')
-st.title('My Portofolio')
+st.title('My Portfolio')
 st.header('Data Scientist Enthusiast')
 
 st.sidebar.title('Navigasi Halaman')
 
 page = st.sidebar.radio('Pilih halaman', 
-                        ['Tentang saya', 
+                        ['About Me', 
                         'Dashboard', 'Prediction', 
-                        'Kontak'])
+                        'Contact'])
 
-if page == 'Tentang saya':
+if page == 'About Me':
     import about
     about.about_me()
-elif page == 'Kontak':
+elif page == 'Contact':
     import kontak
     kontak.munculkan_kontak()
 elif page == 'Dashboard':
