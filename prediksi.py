@@ -149,8 +149,8 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 def lakukan_prediksi():
-    st.title("Halaman Prediksi")
-    st.write("Contoh prediksi sederhana menggunakan Linear Regression")
+    st.title("Prediction Page")
+    st.write("Simple Prediction using Linear Regression")
 
     # Data sintetis
     X = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9]).reshape(-1, 1)
@@ -170,7 +170,7 @@ def lakukan_prediksi():
     st.pyplot(fig)
 
     # Prediksi input baru
-    st.subheader("Prediksi nilai baru")
-    input_val = st.number_input("Masukkan nilai X baru:", min_value=0.0, step=0.5)
+    st.subheader("New Value Prediction")
+    input_val = st.number_input("Input new X value:", min_value=0.0, step=0.5)
     prediksi = model.predict(np.array([[input_val]]))[0]
-    st.write(f"Prediksi nilai y untuk X={input_val} adalah **{prediksi:.2f}**")
+    st.write(f"Value Prediction y for X={input_val} is **{prediksi:.2f}**")

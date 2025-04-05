@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(layout='wide')
-st.title('Portfolio Saya')
+st.title('My Portofolio')
 st.header('Data Scientist Enthusiast')
 
 st.sidebar.title('Navigasi Halaman')

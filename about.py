@@ -1,7 +1,5 @@
 import streamlit as st
 
 def about_me():
-    st.subheader('Nama saya adalah Galih Novalian')
-    st.write('Saya seorang Data Scientist Enthusiast')
-    st.write('Saat ini saya sedang mengambil kelas bootcamp di Dibimbing')
-    st.write('Saat ini saya bekerja di perusahaan Tambang Petrosea')
+    st.subheader('My Name is Galih Novalian')
+    st.write('Hello, I am a professional responsible of ensuring that all warranty and external repair processes run well from start to end. Ensure the selection of the right vendor both technically and commercially to support company so that the expected repair results meet the company expectations. Overseeing the entire warranty process claimed by end users to vendors, and ensuring that lessons learned can be used as improvements in the future for joint improvement related to better best practices in the field, from the vendor side and the company own side. Assisting the Supply Chain Management department including Warehouse, Inventory and Procurement so that they have awareness of the SOPs that must be carried out properly and correctly in handling heavy equipment components so as not to cause losses to the company. Im under development to become a Data Scientist especially to support my experience in mining company to get a comprehensive insight and give the best solution to increase performance and revenue to the company. Im learning about Python, SQL, Tableau and Power BI')

@@ -1,8 +1,8 @@
 import streamlit as st
 
 def munculkan_kontak():
-    st.title("Kontak")
-    st.write("Hubungi saya melalui tautan berikut:")
+    st.title("Contact")
+    st.write("If you want to collaborate with me you can reach me at:")
 
     # LinkedIn
     st.markdown(
