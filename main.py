@@ -4,9 +4,9 @@ st.set_page_config(layout='wide')
 st.title('My Portfolio')
 st.header('Data Scientist Enthusiast')
 
-st.sidebar.title('Navigasi Halaman')
+st.sidebar.title('Page Navigation')
 
-page = st.sidebar.radio('Pilih halaman', 
+page = st.sidebar.radio('Choose Page', 
                         ['About Me', 
                         'Dashboard', 'Prediction', 
                         'Contact'])
